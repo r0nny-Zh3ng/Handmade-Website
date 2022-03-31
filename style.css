@@ -1,0 +1,259 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  color: #000000;
+  font-size: 35pt;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  margin-top:10px;
+  display: inline-block;
+}
+
+
+h2 {
+  font-family:"Gill Sans", Helvetica, sans-serif;
+  color: #000000;
+  font-size: 55pt;
+  letter-spacing:-14px;
+  margin-top:22px;
+  padding-bottom: 1.5rem;
+  /*   margin-top:0; */
+}
+
+button {
+  font-family: "Gill Sans", sans-serif;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  /*   text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+
+p {
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  color: #696969;
+  font-size: 14pt;
+  line-height: 20pt;
+  letter-spacing: 1.005px;
+  
+}
+
+.left {
+  width: 15%;
+  padding: 1% 1% 1% 0;
+  float: left;
+  display: inline-block;
+  /*   background-color: red; */
+}
+
+.center {
+  width: 15%;
+  padding: 1%;
+  float: left;
+  display: inline-block;
+}
+
+.right {
+  width: 60%;
+  padding: 1%;
+  float: left;
+  display: inline-block;
+}
+
+.nav {
+  padding: 2%;
+  width: 26%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  /*     background-color:red; */
+}
+
+.content {
+  padding: 2%;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  /*   background-color:yellow; */
+}
+
+ul {
+  margin: 2;
+  padding: 0;
+}
+
+li {
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25pt;
+  letter-spacing: 1.05px;
+  list-style-type: none;
+  padding-bottom: 2.2rem;
+  
+}
+
+li.bullet {
+  list-style-type: "- ";
+  margin: 1%;
+  padding: 0;
+}
+
+li.bullet a {
+  color: blue;
+}
+
+li a {
+  color: black;
+  /*   text-decoration: none; */
+}
+
+li a:hover {
+  background-color:#696969;
+  color: white;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  /*   height: 400px; */
+  display: inline-block;
+  float: none;
+  margin-bottom: 2%;
+  padding-bottom: 2.2rem;
+  
+}
+
+.full-width-box {
+  width: 100%;
+  margin-bottom: 2%;
+  display: inline-block;
+  float: none;
+}
+
+img {
+  height: 400px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border: 1px dashed #adb5bd;
+  border-radius: 0;
+}
+
+body .gist .gist-data {
+  border-bottom: none;
+  border-radius: 0;
+  background-color: #f1f3f5;
+}
+
+body .gist .blob-wrapper {
+  border-radius: 0;
+}
+
+body .gist .highlight {
+  background-color: transparent;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+body .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+  color: #ced4da;
+  background-color: #495057;
+  pointer-events: none;
+}
+
+body .gist .gist-meta {
+  display: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+.nav-link a,
+.nav-link a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: "Inconsolata", monospace;
+    margin: 1%;
+    width: 98%;
+    height: 100%;
+  }
+  .nav {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    float: left;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+.myBox {
+  /*   background: red; */
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid black;
+}
+
+.fullwidth {
+  width: 100%;
+  float: left;
+}
